@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/welcome")
 public class WelcomeController {
 
-    // enpoint to return a welcome message
+    // enpoint to test get request
     @GetMapping
     public String welcome(){
         return "Welcome to springframework";
